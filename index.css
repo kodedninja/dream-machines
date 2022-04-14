@@ -27,6 +27,8 @@ a {color:inherit}
 p:not(:first-child) {margin-top: 1.3rem}
 p:not(:last-child) {margin-bottom: 1.3rem}
 
+li {margin-left: 1rem}
+
 main {
 	width: 100%;
 	max-width: 500px;
@@ -34,6 +36,7 @@ main {
 }
 
 .footnotes-sep {display:none}
+.footnotes-list {margin-top: 1.3rem}
 
 .ta-c {text-align:center}
 .p-a {position:absolute}
