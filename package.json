@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo app.js --css ./index.css --live -- -t brfs"
+    "start": "budo app.js --css ./index.css --live -- -t brfs",
+    "build": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "budo": "^11.7.0",
     "choo": "^7.1.0",
     "markdown-it": "^12.3.2",
     "markdown-it-footnote": "^3.0.3",
-    "ncp": "^2.0.0",
-    "watchify": "^4.0.0"
+    "ncp": "^2.0.0"
   },
   "devDependencies": {
+    "budo": "^11.7.0",
     "brfs": "^2.0.2"
   }
 }
