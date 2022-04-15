@@ -12,6 +12,8 @@ app.use(require('choo-meta')())
 
 app.route('/', view)
 
+module.exports = app.mount('body')
+
 function view (store, emit) {
   emit('meta', {
     'title': 'Inside Dream Machines',
@@ -47,4 +49,3 @@ function view (store, emit) {
   `
 }
 
-module.exports = app.mount('body')
