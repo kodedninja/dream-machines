@@ -83,7 +83,7 @@ header {
 main {
 	width: 100%;
 	max-width: 500px;
-	margin: 1rem auto 10rem;
+	margin: 0rem auto 10rem;
 	padding: 1rem;
 }
 
@@ -96,6 +96,14 @@ main {
   padding-top: 56.25%;
 }
 
+.center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.f1_5 {font-size:1.5rem}
+
 .d-b {display:block}
 .p-a {position:absolute}
 .p-r {position:relative}
@@ -106,6 +114,7 @@ main {
 .mw-200px {max-width:200px}
 .h-120px {height:120px}
 
+.mt-0_5 {margin-top:0.5rem}
 .mt-2_5 {margin-top:2.5rem}
 .mt-5 {margin-top:5rem}
 .mb-5 {margin-bottom:5rem}

@@ -76,14 +76,14 @@ function view (state, emit) {
             <div class="mt-5 mb-5">
               <p>ABOUT</p>
               <p><a href="https://hex22.org">Hunor Karamán</a> is an optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation. He currently studies how machines learn from data at the Johannes Kepler University in Linz.</p>
-              <p>Photos by <a href="https://www.instagram.com/lethertouch">Kata</a> and by <a href="https://www.are.na/hunor-karaman/the-eye-obptktxn2ni">me</a>.</p>
+              <p>Photos by <a href="https://www.instagram.com/lethertouch">Kata Bokor</a> and <a href="https://www.are.na/hunor-karaman/the-eye-obptktxn2ni">me</a>.</p>
               <p>2022 04 14</p>
             </div>
           </div>
         ` : null}
       </header>
       <main>
-        <img class="w-100 h-120px of-c mb-5" src="/assets/images/waves.jpg" alt="" loading="lazy" />
+        <img class="w-100 h-120px of-c mt-0_5 mb-5" src="/assets/images/waves.jpg" alt="" loading="lazy" />
         ${format(content)}
       </main>
     </body>

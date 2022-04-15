@@ -4,8 +4,9 @@ Someone else’s presence is vibrating in my experience. The eternal bond betwee
 
 Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. A part of me wants to disconnect. The sense of belonging to my body is fighting with my expanded sense of being. When it's too much, I open my eyes. I reach out to grab my phone, a stone from that “no place” outside the boundaries of the possible states of this world.
 
-<div class="my-10">
-  <img src="/assets/images/underwater.jpg" class="w-100 mw-200px mx-a d-b" loading="lazy" />
+<div class="gallery">
+  <img src="/assets/images/underwater.jpg" style="width: 40%; top: 0; left: 50%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <div class="d-b p-a center f1_5">INTRO</div>
 </div>
 
 ## THE GHOST
@@ -17,6 +18,7 @@ I'm experiencing myself through this text, through the images I see and the feed
 <div class="gallery">
   <img src="/assets/images/ghost1.jpg" style="width: 40%; top: 30px; right: 0" class="d-b p-a" loading="lazy" />
   <img src="/assets/images/ghost2.jpg" style="width: 40%; top: 0; left: 50%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <div class="d-b p-a center f1_5">THE GHOST</div>
 </div>
 
 ## DREAM MACHINES[^1]
@@ -25,6 +27,12 @@ The digital is a psychedelic experience. Unlike the mind attached to our body (e
 
 If the body is an event, it is deeply entangled with the co-occuring events of the ghost. There are no identities in the digital world, we can only talk about it using the weaker, perceptive relation of correlation. Things that move, feel, speak, think, love, or disappear together. Dream machines extract these correlations[^2] and feed them into new machines to generate new dreams. New dreams for the same old mind in the same old body. New machines, new dreams, new machines, new dreams. The black hole’s gravity and the sense of belonging to the body are equally strong. The mind can't take it anymore.
 
+<div class="gallery">
+  <img src="/assets/images/machine2.jpg" style="width: 60%; bottom: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/machine1.jpg" style="width: 40%; top: 0; right: 0" class="d-b p-a" loading="lazy" />
+  <div class="d-b p-a center f1_5">DREAM MACHINES</div>
+</div>
+
 ## THE DREAM
 
 This is the point where it is torn in two. The ghost is free. It spreads out to infinity, becoming one with the symbolic edges. The body? It's the end of the body and of the subject as we know it. This is post-subjectivity, its symbol is the ghost. It cannot be seen, you cannot point at it, but you might sense it in the air, in the distance or around you. A hyperobject[^13]. It isn't unique, it follows patterns instead of becoming one. It’s fundamentally illiberal and collectively defined by the dreamscape. Nonetheless, it doesn't want to do any harm. In fact, it doesn't want anything. It's just your eyes playing with you, misidentifying how the light refracts on the window. You project your image onto it, because your brain cannot handle something that’s shapeless, imageless. That’s how through your own eyes, the ghost looks like you. Your words, your moves, your biases, your fears, your hopes, your desires. Slowly, you act like you were in there. The dream machines can perceive parts of you that you didn’t know existed. Through the ghosts you try to become, through their moves you try to imitate, through their uncountable languages you try to speak on, they extract your subconscious, systematic behaviour and store it as a data body, a portrait of your ghost. This portrait is then used to change your ghosts. Not to be more like you, but something you might like to become.
@@ -32,6 +40,10 @@ This is the point where it is torn in two. The ghost is free. It spreads out to 
 Dream machines are at the same time biochemical machines, psychopolitical machines, eschatological machines [^1]. In this sense, post-subjectivity is a pre-subjective, rhizomatic[^5] mode of control (perception + action).
 
 The dream is the illusion of a post-death fantasy. A post-subjective heaven[^11], understood less as afterlife, and more as ego death. The becoming one with your ghosts, the giving up of your body. Nirvana, and the fear of missing out it induces. Its symbol isn’t the peaceful Buddha, but the addict, the depressed, the schizo. 
+
+<div class="my-10 p-r">
+  <img src="/assets/images/dream.png" style="width: 60%" class="mx-a d-b" loading="lazy" />
+</div>
 
 ## SIMULOSIS
 
