@@ -11,6 +11,10 @@ var URL = 'https://hex22.org/inside-dream-machines/'
 
 var app = choo()
 
+function random (min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 app.use(require('choo-meta')())
 app.use(function (state, emitter) {
   state.headerOpen = false;
@@ -18,6 +22,19 @@ app.use(function (state, emitter) {
   emitter.on('header:toggle', function () {
     state.headerOpen = !state.headerOpen
     emitter.emit(state.events.RENDER)
+  })
+})
+app.use(function (state, emitter) {
+  emitter.on(state.events.DOMCONTENTLOADED, function () {
+    if (typeof window !== undefined) {
+      var grainEl = document.getElementById('grain')
+
+      setInterval(function () {
+        var x = random(-5, 5)
+        var y = random(-5, 5)
+        grainEl.style.transform = `translate(${x}%, ${y}%)`
+      }, 100)
+    }
   })
 })
 
@@ -49,6 +66,7 @@ function view (state, emit) {
   return html`
     <body>
       <header>
+        <div id="grain" class="grain"></div>
         <h1>Inside <br/>Dream <br/>Machines</h1>
         <button onclick="${_onClick}" class="clear-button f-r" title="${state.headerOpen ? 'Close information section' : 'Open information section'}">?</button>
         ${state.headerOpen ? html`
