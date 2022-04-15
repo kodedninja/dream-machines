@@ -5,42 +5,63 @@ var path = require('path')
 var format = require('./lib/format')
 
 var content = fs.readFileSync(path.join(__dirname, 'text.md'), 'utf8')
+var TITLE = 'Inside Dream Machines'
+var DESCRIPTION = 'Phenomenology for digital ghosts'
+var URL = 'https://hex22.org/inside-dream-machines/'
 
 var app = choo()
 
 app.use(require('choo-meta')())
+app.use(function (state, emitter) {
+  state.headerOpen = false;
+
+  emitter.on('header:toggle', function () {
+    state.headerOpen = !state.headerOpen
+    emitter.emit(state.events.RENDER)
+  })
+})
 
 app.route('/', view)
 
 module.exports = app.mount('body')
 
-function view (store, emit) {
+function view (state, emit) {
   emit('meta', {
-    'title': 'Inside Dream Machines',
-    'description': 'Inside Dream Machines. A phenomenology of digital ghosts. By Hunor Karamán',
+    'title': TITLE,
+    'description': '${TITLE}. ${DESCRIPTION}. By Hunor Karamán',
     'keywords': 'Dream machines, digital, new worlds, simulosis, cyborg, phenomenology',
-    'og:title': 'Inside Dream Machines',
+    'og:title': TITLE,
     'og:site_name': 'hex22.org',
-    'og:url': 'https://hex22.org/inside-dream-machines/',
-    'og:description': 'A phenomenology of digital ghosts.',
+    'og:url': URL,
+    'og:description': DESCRIPTION,
     'og:type': 'website',
     'og:locale': 'en_US',
     'twitter:card': 'summary',
-    'twitter:title': 'Inside Dream Machines',
-    'twitter:description': 'A phenomenology of digital ghosts.',
-    'twitter:url': 'https://hex22.org/inside-dream-machines/'
+    'twitter:title': TITLE,
+    'twitter:description': DESCRIPTION,
+    'twitter:url': URL
   })
+
+  function _onClick() {
+    emit('header:toggle')
+  }
   
   return html`
     <body>
-      <div class="p-a o-0_8 w-100" style="z-index:-1">
-        <img class="p-a" style="width:40%; top:-200px" src="/assets/images/bg1.png" alt="">
-        <img class="p-a" style="width:50%; top: 320px; left:20%" src="/assets/images/bg2.png" alt="">
-        <img class="p-a" style="width:50%; top:-50px; right:-50px" src="/assets/images/bg3.png" alt="">
-        <img class="p-a" style="width:30%; top:800px; left: 10%" src="/assets/images/ghost.png" alt="">
-      </div>
       <header>
-        <h1 class="ta-c">Inside Dream Machines</h1>
+        <h1>Inside <br/>Dream <br/>Machines</h1>
+        <button onclick="${_onClick}" class="clear-button f-r" title="${state.headerOpen ? 'Close information section' : 'Open information section'}">?</button>
+        ${state.headerOpen ? html`
+          <div class="mt-2_5">
+            <p>Phenomenology for digital ghosts.</p>
+            <div class="mt-5 mb-5">
+              <p>ABOUT</p>
+              <p><a href="https://hex22.org">Hunor Karamán</a> is an optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation. He currently studies how machines learn from data at the Johannes Kepler University in Linz.</p>
+              <p>Photos by <a href="https://www.instagram.com/lethertouch">Kata</a> and by <a href="https://www.are.na/hunor-karaman/the-eye-obptktxn2ni">me</a>.</p>
+              <p>2022 04 14</p>
+            </div>
+          </div>
+        ` : null}
       </header>
       <main>
         ${format(content)}

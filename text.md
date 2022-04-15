@@ -34,12 +34,6 @@ Keeping us on the machines is of great theological, economical and political int
 
 We’ve been longing for the dream for our entire history. The Biblical theme of Jacob’s ladder, Zhuang Zhou’s butterfly dream, new age spiritualisms all render this longing onto powerful images[^9]. Computers, finally, promise to fulfil our ancient desire to become ghosts, spirits, angels. Bodies made out of thin air. Our society is feeling the hopelessness of one more technological revolution that failed to make this promise true. The desires of a society are codified into its rituals[^12], bidirectionally transformed by its technology. In the end, "technology is society made durable"[^10]. Our rituals are designing more and more heaven-like spaces, simulating post-death states, keeping our folkloric illusions of infinities. A project just as much political as spiritual, as much phenomenological as computational, as much archeologic as posthumanic.
 
-## ABOUT
-
-[Hunor Karamán](https://hex22.org) is an optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation. He currently studies how machines learn from data at the Johannes Kepler University in Linz.
-
-2022 04 14
-
 ## REFERENCES
 
 Many of the allegories were used from Vladan Joler's "New Extractivism".
