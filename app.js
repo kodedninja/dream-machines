@@ -3,6 +3,7 @@ var choo = require('choo')
 var fs = require('fs')
 var path = require('path')
 var format = require('./lib/format')
+var onIntersect = require('on-intersect')
 
 var content = fs.readFileSync(path.join(__dirname, 'text.md'), 'utf8')
 var TITLE = 'Inside Dream Machines'
@@ -22,7 +23,7 @@ app.use(function (state, emitter) {
 })
 app.use(function (state, emitter) {
   emitter.on(state.events.DOMCONTENTLOADED, function () {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       var grainEl = document.getElementById('grain')
 
       function tick () {
@@ -35,6 +36,33 @@ app.use(function (state, emitter) {
       }
 
       window.requestAnimationFrame(tick)
+    }
+  })
+})
+app.use(function (state, emitter) {
+  var sections = ['INTRO', 'THE GHOST', 'DREAM MACHINES', 'THE DREAM', 'SIMULOSIS']
+  
+  state.section = 'INTRO'
+
+  emitter.on(state.events.DOMCONTENTLOADED, function () {
+    if (typeof window !== 'undefined') {
+      var header = document.getElementById('header')
+      var bottom = header.getBoundingClientRect().bottom
+      var headings = document.querySelectorAll('h2')
+
+      document.addEventListener('scroll', function () {
+        headings.forEach(function (el, i) {
+          var top = el.getBoundingClientRect().top
+          if (top > 0 && top <= bottom) {
+            var title = sections[i + 1]
+
+            if (state.section !== title) {
+              state.section = title
+              emitter.emit(state.events.RENDER)
+            }
+          }
+        })
+      })
     }
   })
 })
@@ -66,9 +94,10 @@ function view (state, emit) {
   
   return html`
     <body>
-      <header>
+      <header id='header'>
         <div id="grain" class="grain"></div>
         <h1>Inside <br/>Dream <br/>Machines</h1>
+        ${!state.headerOpen ? html`<span class="f-l" style="font-size:0.75rem">${state.section}</span>` : null}
         <button onclick="${_onClick}" class="clear-button f-r" title="${state.headerOpen ? 'Close information section' : 'Open information section'}">?</button>
         ${state.headerOpen ? html`
           <div class="mt-2_5">
