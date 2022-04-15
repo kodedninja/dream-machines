@@ -4,11 +4,20 @@ Someone else’s presence is vibrating in my experience. The eternal bond betwee
 
 Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. A part of me wants to disconnect. The sense of belonging to my body is fighting with my expanded sense of being. When it's too much, I open my eyes. I reach out to grab my phone, a stone from that “no place” outside the boundaries of the possible states of this world.
 
+<div class="my-10">
+  <img src="/assets/images/underwater.jpg" class="w-100 mw-200px mx-a d-b" loading="lazy" />
+</div>
+
 ## THE GHOST
 
 I’m typing this on my phone. All the muscles on my hands, forearms and shoulders are working to move my thumbs to the right positions of the screen. Together they navigate a digital map, within the lower half of the screen, the keyboard. A strangely fluid map for my physical hands, always transforming, shapeshifting. A simultaneous digital and physical self-awareness descends on me and my train of thought disintegrates. Digital + Physical = ? What is this weird, familiar, alien, caring, dominating existence, all around and inside me?
 
 I'm experiencing myself through this text, through the images I see and the feeds I scroll through. I am all of that. In there, over there, out there, where I am not. A ghost is bound to my body. It moves like me, it talks like me, but it is almost invisible in the infinite dimensions it exists in. A ghost, which is many ghosts.
+
+<div class="gallery">
+  <img src="/assets/images/ghost1.jpg" style="width: 40%; top: 30px; right: 0" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/ghost2.jpg" style="width: 40%; top: 0; left: 50%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+</div>
 
 ## DREAM MACHINES[^1]
 
@@ -30,7 +39,7 @@ As long as there is a body, the machines can’t keep you in the dream. Instead,
 
 For the cyborg[^7], carrier of the body, mind, ghost triage, the assemblage is a stateless structure. A single, pure, unrepeatable event, written in stone. Once a thing enters, it can never leave it behind. Newer and newer assemblages are defined within the old ones, stretching the cyborg more and more, depetrifying the world and deepening the simulosis. The cyborg is falling through episodes within episodes of dreams. A post-psychotic, post-neurotic delirium, governed by a materialist, machinic psychopolitics.
 
-Keeping us on the machines is of great theological, economical and political interest. Our immersion in endless-scrolling feeds of images is a new form of post-secular escapism. The political-economical practices of new extractivism[^2] turn any emotional or behavioural surplus into capital by enforcing artificial scarcity. Our enclosure in the body, our longing for the dream, our imitation of the ghost are valuable sources of such cheap extractible resources. Our emotional capacity, however, is limited, just like the planet that keeps the dream machines running. Burnout and depression replace the revolution.[^6]
+Keeping us on the machines is of great theological, economical and political interest. Our immersion in endless-scrolling feeds of images is a new form of postsecular escapism. The political-economical practices of new extractivism[^2] turn any emotional or behavioural surplus into capital by enforcing artificial scarcity. Our enclosure in the body, our longing for the dream, our imitation of the ghost are valuable sources of such cheap extractible resources. Our emotional capacity, however, is limited, just like the planet that keeps the dream machines running. Burnout and depression replace the revolution.[^6]
 
 We’ve been longing for the dream for our entire history. The Biblical theme of Jacob’s ladder, Zhuang Zhou’s butterfly dream, new age spiritualisms all render this longing onto powerful images[^9]. Computers, finally, promise to fulfil our ancient desire to become ghosts, spirits, angels. Bodies made out of thin air. Our society is feeling the hopelessness of one more technological revolution that failed to make this promise true. The desires of a society are codified into its rituals[^12], bidirectionally transformed by its technology. In the end, "technology is society made durable"[^10]. Our rituals are designing more and more heaven-like spaces, simulating post-death states, keeping our folkloric illusions of infinities. A project just as much political as spiritual, as much phenomenological as computational, as much archeologic as posthumanic.
 

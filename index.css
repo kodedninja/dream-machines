@@ -53,6 +53,7 @@ header {
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
 	overflow: hidden;
+	z-index: 1;
 }
 
 @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
@@ -60,8 +61,6 @@ header {
 		background: rgba(27, 27, 27, 0.95);
   }
 }
-
-
 
 .grain {
   position: absolute;
@@ -84,19 +83,34 @@ header {
 main {
 	width: 100%;
 	max-width: 500px;
-	margin: 10rem auto;
+	margin: 1rem auto 10rem;
 	padding: 1rem;
 }
 
 .footnotes-sep {display:none}
 .footnotes-list {margin-top: 1.3rem}
 
+.gallery {
+  margin: 10rem 0;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.d-b {display:block}
 .p-a {position:absolute}
-.w-100 {width:100%}
+.p-r {position:relative}
 .f-r {float:right}
+.of-c {object-fit:cover}
+
+.w-100 {width:100%}
+.mw-200px {max-width:200px}
+.h-120px {height:120px}
+
 .mt-2_5 {margin-top:2.5rem}
 .mt-5 {margin-top:5rem}
 .mb-5 {margin-bottom:5rem}
+.mx-a {margin-left:auto;margin-right:auto}
+.my-10 {margin-top:10rem;margin-bottom:10rem}
 
 .clear-button {
 	background: none;

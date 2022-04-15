@@ -11,10 +11,6 @@ var URL = 'https://hex22.org/inside-dream-machines/'
 
 var app = choo()
 
-function random (min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
 app.use(require('choo-meta')())
 app.use(function (state, emitter) {
   state.headerOpen = false;
@@ -29,11 +25,16 @@ app.use(function (state, emitter) {
     if (typeof window !== undefined) {
       var grainEl = document.getElementById('grain')
 
-      setInterval(function () {
-        var x = random(-5, 5)
-        var y = random(-5, 5)
-        grainEl.style.transform = `translate(${x}%, ${y}%)`
-      }, 100)
+      function tick () {
+        setTimeout(function () {
+          var x = random(-5, 5)
+          var y = random(-5, 5)
+          grainEl.style.transform = `translate(${x}%, ${y}%)`
+          window.requestAnimationFrame(tick)
+        }, 100) // 10 fps
+      }
+
+      window.requestAnimationFrame(tick)
     }
   })
 })
@@ -82,9 +83,14 @@ function view (state, emit) {
         ` : null}
       </header>
       <main>
+        <img class="w-100 h-120px of-c mb-5" src="/assets/images/waves.jpg" alt="" loading="lazy" />
         ${format(content)}
       </main>
     </body>
   `
+}
+
+function random (min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
