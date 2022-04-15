@@ -45,7 +45,7 @@ module.exports = app.mount('body')
 function view (state, emit) {
   emit('meta', {
     'title': TITLE,
-    'description': '${TITLE}. ${DESCRIPTION}. By Hunor Karamán',
+    'description': `${TITLE}. ${DESCRIPTION}. By Hunor Karamán`,
     'keywords': 'Dream machines, digital, new worlds, simulosis, cyborg, phenomenology',
     'og:title': TITLE,
     'og:site_name': 'hex22.org',
