@@ -14,6 +14,7 @@ var TEMPLATE = dedent`
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preload" href="/assets/index.css" as="style">
     <link href="/assets/index.css" rel="stylesheet">
 
     %%HEAD%%
@@ -22,7 +23,7 @@ var TEMPLATE = dedent`
 </html>
 `
 
-var SCRIPT = '<script src="/assets/index.js"></script>'
+var SCRIPT = '<script src="/assets/index.js" defer></script>'
 
 function bundleHTML() {
   var state = {}
@@ -56,9 +57,12 @@ function bundleScripts() {
 }
 
 function copyAssets() {
-  ncp(path.join(__dirname, 'assets'), 'public/assets', function (err) {
-    if (err) throw err
-  })
+  var assetsPath = path.join(__dirname, 'assets')
+  if (fs.existsSync(assetsPath)) {
+    ncp(assetsPath, 'public/assets', function (err) {
+      if (err) throw err
+    })
+  }
 
   ncp(path.join(__dirname, 'index.css'), 'public/assets/index.css', function (err) {
     if (err) throw err
