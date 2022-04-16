@@ -3,7 +3,6 @@ var choo = require('choo')
 var fs = require('fs')
 var path = require('path')
 var format = require('./lib/format')
-var onIntersect = require('on-intersect')
 
 var content = fs.readFileSync(path.join(__dirname, 'text.md'), 'utf8')
 var TITLE = 'Inside Dream Machines'
