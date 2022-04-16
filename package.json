@@ -16,6 +16,8 @@
     "browserify": "^17.0.0",
     "choo": "^7.1.0",
     "choo-meta": "^2.0.0",
+    "concat-stream": "^2.0.0",
+    "crypto": "^1.0.1",
     "dedent": "^0.7.0",
     "markdown-it": "^12.3.2",
     "markdown-it-footnote": "^3.0.3",
