@@ -66,7 +66,7 @@ function bundleScripts() {
 
     bundleStream.pipe(concat({ type: 'buffer' }, function (bundle) {
       var hash = sha512.digest('buffer').toString('hex').slice(0, 16)
-      var scriptPath = `assets/index.${hash}.js`
+      var scriptPath = `/assets/index.${hash}.js`
       
       var ws = fs.createWriteStream(path.join(`public`, scriptPath))
       ws.write(bundle)
@@ -88,7 +88,7 @@ function bundleStyles () {
 
     rs.pipe(concat({ type: 'buffer' }, function (bundle) {
       var hash = sha512.digest('buffer').toString('hex').slice(0, 16)
-      var stylePath = `assets/index.${hash}.css`
+      var stylePath = `/assets/index.${hash}.css`
 
       var ws = fs.createWriteStream(path.join(`public`, stylePath))
       ws.write(bundle)
