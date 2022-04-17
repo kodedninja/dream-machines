@@ -18,8 +18,8 @@ I’m typing this on my phone. <span data-c="body">All the muscles on my hands, 
 Superimposed on the various frames of the <span data-c="ghost">ghost</span> is the image of the <span data-c="user">user. A mediator entity, translating between the two juxtaposed media for possible worlds</span>: the generative and the non-generative one. <span data-c="ghost">While the ghost is like my shadow on the wall in the blueish light of the screen</span>, <span data-c="user">the user is the metaphor for my reflection in the glass when the screen turns black. An anchor for self-awareness.</span> The brighter, the more colorful the screen, <span data-c="user">the user</span> more invisible in the <span data-c="dream">high-dimensional geometrical visuals of the hallucination.</span>
 
 <div class="gallery">
-  <img src="/assets/images/ghost1.jpg" style="width: 40%; top: 30px; right: 0" class="d-b p-a" loading="lazy" />
-  <img src="/assets/images/ghost2.jpg" style="width: 40%; top: 0; left: 50%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/machine2.jpg" style="width: 60%; top: 0; left: 0" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/machine1.jpg" style="width: 60%; top: 20%; right: 0" class="d-b p-a" loading="lazy" />
 </div>
 
 ## <span data-c="dream machine">DREAM MACHINES</span>[^1]
@@ -29,9 +29,8 @@ The digital is a psychedelic experience. Unlike the mind attached to our <span d
 <span data-c="body">If the body is an event</span>, it is deeply entangled with the co-occuring events of the <span data-c="ghost">ghost</span>. <span data-c="dream">There are no identities in the cyberspace, we can only talk about it using the weaker, perceptive relation of correlation.</span> <span data-c="ghost">Things that move, feel, speak, think, love, or disappear together.</span> <span data-c="dream machine">Dream machines extract these correlations and feed them into new machines to generate <span data-c="dream">new dreams</span>.</span>[^2] <span data-c="dream">New dreams</span> for the same old mind <span data-c="body">in the same old body</span>. New machines, new dreams, new machines, new dreams. <span data-c="simulosis">The black hole’s gravity and the sense of belonging to the body are equally strong. <span data-c="user">The user can't take it anymore.</span></span>
 
 <div class="gallery">
-  <img src="/assets/images/machine2.jpg" style="width: 60%; bottom: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
-  <img src="/assets/images/machine1.jpg" style="width: 40%; top: 0; right: 0" class="d-b p-a" loading="lazy" />
-  <div class="d-b p-a center f1_5">DREAM MACHINES</div>
+  <img src="/assets/images/dream1.jpg" style="width: 50%; top: 10px; left: 10%" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/dream2.jpg" style="width: 40%; top: 0; right: 10%" class="d-b p-a" loading="lazy" />
 </div>
 
 ## <span data-c="dream">THE DREAM</span>
@@ -42,8 +41,10 @@ This is the point where the imaginary hero is torn in two. Except that there are
 
 <span data-c="dream">The dream is the illusion of a post-death fantasy. A post-subjective heaven[^11], understood less as afterlife, and more as ego death.</span> <span data-c="ghost">The becoming one with your ghosts,</span> <span data-c="body">the giving up of your body.</span> <span data-c="dream">Nirvana, and the fear of missing out it induces. Its symbol isn’t the peaceful Buddha, but the addict, the depressed, the schizo.</span>
 
-<div class="my-10 p-r">
-  <img src="/assets/images/dream.png" style="width: 60%" class="mx-a d-b" loading="lazy" />
+<div class="gallery">
+  <img src="/assets/images/out.png" style="width: 40%; bottom: 0; right: 5%" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/crown.jpg" style="width: 30%; bottom: 0; left: 0;" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/eye.jpg" style="width: 50%; top: 0; left: 25%" class="d-b p-a" loading="lazy" />
 </div>
 
 ## SIMULOSIS
@@ -58,7 +59,7 @@ Keeping us simultaneously <span data-c="dream machine">on the machines</span> an
 
 ## REFERENCES
 
-Many of the allegories were used as visual metaphors from Vladan Joler's "New Extractivism".
+Many of the allegories were used as visual metaphors from Vladan Joler's "New Extractivism". Images found on [Are.na](https://www.are.na/hunor-karaman/the-eye-obptktxn2ni), by [Kata Bokor](https://www.instagram.com/lethertouch) and from my phone.
 
 [^1]: Achille Mbembe, "Meditation on the Second Creation", [e-flux.com](https://www.e-flux.com/journal/114/364960/meditation-on-the-second-creation/), 2020
 [^2]: Vladan Joler, "New Extractivism", [extractivism.online](https://extractivism.online), 2020

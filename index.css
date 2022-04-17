@@ -130,10 +130,11 @@ a[id] {padding-top: 200px}
 .of-c {object-fit:cover}
 
 .w-100 {width:100%}
+.w-70 {width:70%}
 .mw-200px {max-width:200px}
 .h-120px {height:120px}
 
-.mt-0_5 {margin-top:0.5rem}
+.mt-1 {margin-top:1rem}
 .mt-2_5 {margin-top:2.5rem}
 .mt-5 {margin-top:5rem}
 .mb-5 {margin-bottom:5rem}
