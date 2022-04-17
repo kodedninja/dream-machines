@@ -2,11 +2,12 @@ var html = require('choo/html')
 var choo = require('choo')
 var fs = require('fs')
 var path = require('path')
-var format = require('./lib/format')
+
+var Content = require('./lib/content')
 
 var content = fs.readFileSync(path.join(__dirname, 'text.md'), 'utf8')
 var TITLE = 'Inside Dream Machines'
-var DESCRIPTION = 'Phenomenology for digital ghosts'
+var DESCRIPTION = 'A phenomenological index of digital ghosts'
 var URL = 'https://hex22.org/inside-dream-machines/'
 
 var app = choo()
@@ -100,7 +101,7 @@ function view (state, emit) {
         <button onclick="${_onClick}" class="clear-button f-r" title="${state.headerOpen ? 'Close information section' : 'Open information section'}">?</button>
         ${state.headerOpen ? html`
           <div class="mt-2_5">
-            <p>Phenomenology for digital ghosts.</p>
+            <p>${DESCRIPTION}.</p>
             <div class="mt-5 mb-5">
               <p>ABOUT</p>
               <p><a href="https://hex22.org">Hunor Karamán</a> is an optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation. He currently studies how machines learn from data at the Johannes Kepler University in Linz.</p>
@@ -110,10 +111,7 @@ function view (state, emit) {
           </div>
         ` : null}
       </header>
-      <main>
-        <img class="w-100 h-120px of-c mt-0_5 mb-5" src="/assets/images/waves.jpg" alt="" loading="lazy" />
-        ${format(content)}
-      </main>
+      ${state.cache(Content, 'content').render(content)}
     </body>
   `
 }

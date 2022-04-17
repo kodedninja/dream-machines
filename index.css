@@ -78,6 +78,7 @@ header {
   opacity: 0.4;
   -o-object-fit: fill;
   object-fit: fill;
+	z-index: -1;
 }
 
 main {
@@ -120,6 +121,8 @@ main {
 .mb-5 {margin-bottom:5rem}
 .mx-a {margin-left:auto;margin-right:auto}
 .my-10 {margin-top:10rem;margin-bottom:10rem}
+
+.tc-black {color:black}
 
 .clear-button {
 	background: none;
