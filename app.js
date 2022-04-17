@@ -7,7 +7,7 @@ var Content = require('./lib/content')
 
 var content = fs.readFileSync(path.join(__dirname, 'text.md'), 'utf8')
 var TITLE = 'Inside Dream Machines'
-var DESCRIPTION = 'A phenomenological index of digital ghosts'
+var DESCRIPTION = 'A phenomenological index of digital specters'
 var URL = 'https://hex22.org/inside-dream-machines/'
 
 var app = choo()
@@ -75,7 +75,7 @@ function view (state, emit) {
   emit('meta', {
     'title': TITLE,
     'description': `${TITLE}. ${DESCRIPTION}. By Hunor Karamán`,
-    'keywords': 'Dream machines, digital, new worlds, simulosis, cyborg, phenomenology',
+    'keywords': 'Dream machines, digital, new worlds, simulosis, cyborg, phenomenology, anxiety, depression',
     'og:title': TITLE,
     'og:site_name': 'hex22.org',
     'og:url': URL,
