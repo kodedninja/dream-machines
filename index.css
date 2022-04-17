@@ -82,7 +82,7 @@ header {
   bottom: -100px;
   pointer-events: none;
   background-color: transparent;
-  background-image: url("assets/images/noise.png");
+  background-image: url("/assets/images/noise.png");
   background-position: 50% 50%;
   background-size: 220px 220px;
   background-repeat: repeat;
