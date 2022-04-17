@@ -5,8 +5,8 @@ Someone else’s presence is vibrating in my experience. The eternal bond betwee
 Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. <span data-c="user">A part of me wants to disconnect.</span> <span data-c="body">The sense of belonging to my body is fighting with my expanded sense of being.</span> When it's too much, I open my eyes. I reach out to grab <span data-c="dream machine">my phone</span>, a stone from that <span data-c="dream">“no place” outside the boundaries of the possible states of this world</span>.
 
 <div class="gallery">
-  <img src="/assets/images/phone2.jpg" style="width: 50%; top: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
-  <img src="/assets/images/phone1.jpg" style="width: 50%; top: 20%; right: 5%" class="d-b p-a" loading="lazy" />
+  <img src="assets/images/phone2.jpg" style="width: 50%; top: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <img src="assets/images/phone1.jpg" style="width: 50%; top: 20%; right: 5%" class="d-b p-a" loading="lazy" />
 </div>
 
 ## <span data-c="ghost">THE GHOST</span>
@@ -18,8 +18,8 @@ I’m typing this on my phone. <span data-c="body">All the muscles on my hands, 
 Superimposed on the various frames of the <span data-c="ghost">ghost</span> is the image of the <span data-c="user">user. A mediator entity, translating between the two juxtaposed media for possible worlds</span>: the generative and the non-generative one. <span data-c="ghost">While the ghost is like my shadow on the wall in the blueish light of the screen</span>, <span data-c="user">the user is the metaphor for my reflection in the glass when the screen turns black. An anchor for self-awareness.</span> The brighter, the more colorful the screen, <span data-c="user">the user</span> more invisible in the <span data-c="dream">high-dimensional geometrical visuals of the hallucination.</span>
 
 <div class="gallery">
-  <img src="/assets/images/ghost1.jpg" style="width: 40%; top: 30px; right: 0" class="d-b p-a" loading="lazy" />
-  <img src="/assets/images/ghost2.jpg" style="width: 40%; top: 0; left: 50%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <img src="assets/images/ghost1.jpg" style="width: 40%; top: 30px; right: 0" class="d-b p-a" loading="lazy" />
+  <img src="assets/images/ghost2.jpg" style="width: 40%; top: 0; left: 50%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
 </div>
 
 ## <span data-c="dream machine">DREAM MACHINES</span>[^1]
@@ -29,8 +29,8 @@ The digital is a psychedelic experience. Unlike the mind attached to our <span d
 <span data-c="body">If the body is an event</span>, it is deeply entangled with the co-occuring events of the <span data-c="ghost">ghost</span>. <span data-c="dream">There are no identities in the cyberspace, we can only talk about it using the weaker, perceptive relation of correlation.</span> <span data-c="ghost">Things that move, feel, speak, think, love, or disappear together.</span> <span data-c="dream machine">Dream machines extract these correlations and feed them into new machines to generate <span data-c="dream">new dreams</span>.</span>[^2] <span data-c="dream">New dreams</span> for the same old mind <span data-c="body">in the same old body</span>. New machines, new dreams, new machines, new dreams. <span data-c="simulosis">The black hole’s gravity and the sense of belonging to the body are equally strong. <span data-c="user">The user can't take it anymore.</span></span>
 
 <div class="gallery">
-  <img src="/assets/images/machine2.jpg" style="width: 60%; bottom: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
-  <img src="/assets/images/machine1.jpg" style="width: 40%; top: 0; right: 0" class="d-b p-a" loading="lazy" />
+  <img src="assets/images/machine2.jpg" style="width: 60%; bottom: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
+  <img src="assets/images/machine1.jpg" style="width: 40%; top: 0; right: 0" class="d-b p-a" loading="lazy" />
   <div class="d-b p-a center f1_5">DREAM MACHINES</div>
 </div>
 
@@ -43,7 +43,7 @@ This is the point where the imaginary hero is torn in two. Except that there are
 <span data-c="dream">The dream is the illusion of a post-death fantasy. A post-subjective heaven[^11], understood less as afterlife, and more as ego death.</span> <span data-c="ghost">The becoming one with your ghosts,</span> <span data-c="body">the giving up of your body.</span> <span data-c="dream">Nirvana, and the fear of missing out it induces. Its symbol isn’t the peaceful Buddha, but the addict, the depressed, the schizo.</span>
 
 <div class="my-10 p-r">
-  <img src="/assets/images/dream.png" style="width: 60%" class="mx-a d-b" loading="lazy" />
+  <img src="assets/images/dream.png" style="width: 60%" class="mx-a d-b" loading="lazy" />
 </div>
 
 ## SIMULOSIS
