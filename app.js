@@ -4,6 +4,7 @@ var fs = require('fs')
 var path = require('path')
 
 var Content = require('./lib/content')
+var stores = require('./lib/stores')
 
 var content = fs.readFileSync(path.join(__dirname, 'text.md'), 'utf8')
 var TITLE = 'Inside Dream Machines'
@@ -13,59 +14,9 @@ var URL = 'https://hex22.org/inside-dream-machines/'
 var app = choo()
 
 app.use(require('choo-meta')())
-app.use(function (state, emitter) {
-  state.headerOpen = false;
-
-  emitter.on('header:toggle', function () {
-    state.headerOpen = !state.headerOpen
-    emitter.emit(state.events.RENDER)
-  })
-})
-app.use(function (state, emitter) {
-  emitter.on(state.events.DOMCONTENTLOADED, function () {
-    if (typeof window !== 'undefined') {
-      var grainEl = document.getElementById('grain')
-
-      function tick () {
-        setTimeout(function () {
-          var x = random(-5, 5)
-          var y = random(-5, 5)
-          grainEl.style.transform = `translate(${x}%, ${y}%)`
-          window.requestAnimationFrame(tick)
-        }, 100) // 10 fps
-      }
-
-      window.requestAnimationFrame(tick)
-    }
-  })
-})
-app.use(function (state, emitter) {
-  var sections = ['INTRO', 'THE GHOST', 'DREAM MACHINES', 'THE DREAM', 'SIMULOSIS']
-  
-  state.section = 'INTRO'
-
-  emitter.on(state.events.DOMCONTENTLOADED, function () {
-    if (typeof window !== 'undefined') {
-      var header = document.getElementById('header')
-      var bottom = header.getBoundingClientRect().bottom
-      var headings = document.querySelectorAll('h2')
-
-      document.addEventListener('scroll', function () {
-        headings.forEach(function (el, i) {
-          var top = el.getBoundingClientRect().top
-          if (top > 0 && top <= bottom) {
-            var title = sections[i + 1]
-
-            if (state.section !== title) {
-              state.section = title
-              emitter.emit(state.events.RENDER)
-            }
-          }
-        })
-      })
-    }
-  })
-})
+app.use(stores.header)
+app.use(stores.animateGrain)
+app.use(stores.concepts)
 
 app.route('/', view)
 
@@ -88,8 +39,12 @@ function view (state, emit) {
     'twitter:url': URL
   })
 
-  function _onClick() {
+  function _onClick () {
     emit('header:toggle')
+  }
+
+  function _highlight (i) {
+    emit('concepts:highlight', i)
   }
   
   return html`
@@ -97,11 +52,23 @@ function view (state, emit) {
       <header id='header'>
         <div id="grain" class="grain"></div>
         <h1>Inside <br/>Dream <br/>Machines</h1>
-        ${!state.headerOpen ? html`<span class="f-l" style="font-size:0.75rem">${state.section}</span>` : null}
-        <button onclick="${_onClick}" class="clear-button f-r" title="${state.headerOpen ? 'Close information section' : 'Open information section'}">?</button>
+        ${!state.headerOpen ? html`<span class="f-l f0_75 tt-u">${state.concepts[state.selectedConcept]}</span>` : null}
+        <button onclick="${_onClick}" class="clear-button f1 f-r" title="${state.headerOpen ? 'Close information section' : 'Open information section'}">?</button>
         ${state.headerOpen ? html`
           <div class="mt-2_5">
             <p>${DESCRIPTION}.</p>
+            <div>
+              ${state.concepts.map(function (name, i) {
+                return html`
+                  <button
+                    class="clear-button mt-0_5 mr-0_5 tt-u d-ib ws-nw f0_75 ${i === state.selectedConcept ? 'highlight' : 'tc-white'}"
+                    onclick=${_highlight.bind(null, i)}
+                  >
+                    ${name}
+                  </button>
+                `
+              })}
+            </div>
             <div class="mt-5 mb-5">
               <p>ABOUT</p>
               <p><a href="https://hex22.org">Hunor Karamán</a> is an optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation. He currently studies how machines learn from data at the Johannes Kepler University in Linz.</p>
@@ -114,9 +81,5 @@ function view (state, emit) {
       ${state.cache(Content, 'content').render(content)}
     </body>
   `
-}
-
-function random (min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 

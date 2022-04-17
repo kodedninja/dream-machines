@@ -32,7 +32,19 @@ h2 {
   margin-top: 10rem;
 }
 
+.clear-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: white;
+}
+
 a {color:inherit}
+.highlight {
+  /*color:#45ff8e*/
+  color: black;
+  background: white;
+}
 
 p:not(:first-child) {margin-top: 1.3rem}
 p:not(:last-child) {margin-bottom: 1.3rem}
@@ -90,6 +102,8 @@ main {
 
 .footnotes-sep {display:none}
 .footnotes-list {margin-top: 1.3rem}
+a[id] {padding-top: 200px}
+.footnote-item {scroll-margin-top: 200px}
 
 .gallery {
   margin: 10rem 0;
@@ -104,8 +118,12 @@ main {
 }
 
 .f1_5 {font-size:1.5rem}
+.f1 {font-size:1rem}
+.f0_75 {font-size:0.75rem}
+.tt-u {text-transform: uppercase}
 
 .d-b {display:block}
+.d-ib {display:inline-block}
 .p-a {position:absolute}
 .p-r {position:relative}
 .f-r {float:right}
@@ -121,14 +139,9 @@ main {
 .mb-5 {margin-bottom:5rem}
 .mx-a {margin-left:auto;margin-right:auto}
 .my-10 {margin-top:10rem;margin-bottom:10rem}
+.mr-0_5 {margin-right:0.5rem}
 
 .tc-black {color:black}
-
-.clear-button {
-	background: none;
-	border: none;
-	cursor: pointer;
-	color: white;
-	font-size: 1rem;
-}
+.tc-white {color:white}
+.ws-nw {white-space:nowrap}
 
