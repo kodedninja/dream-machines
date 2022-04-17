@@ -2,7 +2,7 @@ When I close my eyes, I like to think of a place. It’s nowhere. I don’t have
 
 Someone else’s presence is vibrating in my experience. The eternal bond between us is my reality. They’re my fragments of memories and my hopes of the future. They’re the patience that leads me to <span data-c="dream">nirvana</span>. Will I feel it once I get there? We share parts of ourselves and parts of what we know about this story. Eventually, we feel a soft sensation of goodbye.
 
-Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. <span data-c="user">A part of me wants to disconnect.</span< <span data-c="body">The sense of belonging to my body is fighting with my expanded sense of being.</span> When it's too much, I open my eyes. I reach out to grab <span data-c="dream machine">my phone</span>, a stone from that <span data-c="dream">“no place” outside the boundaries of the possible states of this world</span>.
+Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. <span data-c="user">A part of me wants to disconnect.</span> <span data-c="body">The sense of belonging to my body is fighting with my expanded sense of being.</span> When it's too much, I open my eyes. I reach out to grab <span data-c="dream machine">my phone</span>, a stone from that <span data-c="dream">“no place” outside the boundaries of the possible states of this world</span>.
 
 <div class="gallery">
   <img src="/assets/images/phone2.jpg" style="width: 50%; top: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
