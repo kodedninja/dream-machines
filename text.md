@@ -5,8 +5,8 @@ Someone else’s presence is vibrating in my experience. The eternal bond betwee
 Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. <span data-c="user">A part of me wants to disconnect.</span> <span data-c="body">The sense of belonging to my body is fighting with my expanded sense of being.</span> When it's too much, I open my eyes. I reach out to grab <span data-c="dream machine">my phone</span>, a stone from that <span data-c="dream">“no place” outside the boundaries of the possible states of this world</span>.
 
 <div class="gallery">
-  <img src="/assets/images/phone2.jpg" style="width: 50%; top: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" loading="lazy" />
-  <img src="/assets/images/phone1.jpg" style="width: 50%; top: 20%; right: 5%" class="d-b p-a" loading="lazy" />
+  <img src="/assets/images/phone2.jpg" style="width: 50%; top: 0; left: 30%; transform: translateX(-50%)" class="d-b p-a" />
+  <img src="/assets/images/phone1.jpg" style="width: 50%; top: 20%; right: 5%" class="d-b p-a" />
 </div>
 
 ## <span data-c="ghost">THE GHOST</span>
@@ -47,7 +47,7 @@ This is the point where the imaginary hero is torn in two. Except that there are
   <img src="/assets/images/eye.jpg" style="width: 50%; top: 0; left: 25%" class="d-b p-a" loading="lazy" />
 </div>
 
-## SIMULOSIS
+## <span data-c="simulosis">SIMULOSIS</span>
 
 <span data-c="body">As long as there is a body,</span> <span data-c="dream machine">the machines</span> can’t keep you in the <span data-c="dream">dream</span>. Instead, <span data-c="simulosis">they put immense pressure on <span data-c="body">your psyche</span> by normalising psychosis through endless projections and other abstract architectures in the physical world that force you into a state of simulosis.</span> <span data-c="dream machine">Simulations</span> constantly break through <span data-c="user">the defensive membranes of the user</span> and alter the dynamics of your mind, permanently changing your relationship with time and space. <span data-c="dream">"Everything is the same everywhere", alternative presents synced in the real-time, a "total Earth time".</span> <span data-c="simulosis">"We feel perpetually jetlagged".</span>[^14] <span data-c="user">The user</span> tries to maintain the heterogeneity of <span data-c="body">the body</span> and of the mind, their unique clocks and cartography of experiencing space. The contradictions between <span data-c="dream">dreams</span> and physical reality <span data-c="simulosis">yield a surplus of emotions. Addictions, anxieties, depression. That infinite tension on the body and the mind at the point of no return.</span> At the centre of this concept of simulosis is to reformulate our feelings, hopes, and fears as <span data-c="dream machine">feedback signals for the dream machines.</span> This is, at last, <span data-c="dream machine">the neutralisation of the dream machine assemblage</span>, not as the depoliticisation of the machine, but as a <span data-c="simulosis">phenomenological coping mechanism</span>. <span data-c="simulosis">Simulosis, in the end, is our inability to escape deep sleep after waking up.</span> Our psyche can only survive this by being connected to <span data-c="dream machine">machines</span>.
 
