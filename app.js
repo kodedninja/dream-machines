@@ -73,6 +73,7 @@ function view (state, emit) {
               <p>ABOUT</p>
               <p><a href="https://hex22.org">Hunor Karamán</a> is an optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation. He currently studies how machines learn from data at the Johannes Kepler University in Linz.</p>
               <p>2022 04 14</p>
+              <p>CC BY-NC-SA</p>
             </div>
           </div>
         ` : null}
